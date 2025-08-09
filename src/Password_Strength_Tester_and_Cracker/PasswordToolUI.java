@@ -3,12 +3,6 @@ package Password_Strength_Tester_and_Cracker;
 import javax.swing.*;
 import java.awt.*;
 
-/**
- * UI that works with your classes:
- * - PasswordStrengthChecker.checkStrength(String)
- * - PasswordCracker.crackPassword(String)
- * - PasswordGenerator.generatePassword(int)
- */
 public class PasswordToolUI extends JFrame {
 
     private final JTextField inputField = new JTextField(24);
